@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/repo"
+    "url": "git@github.com:claudiadonea-awin/test-yo-gen.git"
   },
   "author": {
-    "name": "claudia donea",
+    "name": "Claudia Donea",
     "email": "claudia.donea@awin.com"
   },
   "keywords": [
@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/username/repo/issues"
+    "url": "git@github.com:claudiadonea-awin/test-yo-gen.git/issues"
   },
   "main": "test-yo-gen.umd.js",
   "module": "test-yo-gen.js",

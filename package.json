@@ -1,6 +1,6 @@
 {
   "name": "test-yo-gen",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -19,7 +19,7 @@
     "url": "git@github.com:claudiadonea-awin/test-yo-gen.git"
   },
   "author": {
-    "name": "claudia donea",
+    "name": "Claudia Donea",
     "email": "claudia.donea@awin.com"
   },
   "keywords": [
@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/username/repo/issues"
+    "url": "git@github.com:claudiadonea-awin/test-yo-gen.git/issues"
   },
   "devDependencies": {
     "@angular/common": "^5.0.0",

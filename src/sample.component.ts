@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'sample-component',
-  template: `<h1>Sample component from npm public package</h1>`
+  template: `<h1>Sample component v1.4</h1>`
 })
 export class SampleComponent {
 

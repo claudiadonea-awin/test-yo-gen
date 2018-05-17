@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/9.10.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js build
+  /usr/local/Cellar/node/9.10.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js lint
 
 PATH: 
   /Users/claudiadonea/.basher/cellar/bin:/Users/claudiadonea/.basher/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/claudiadonea/Documents/Projects/awin-container-environment/:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/claudiadonea/.basher/cellar/bin:/Users/claudiadonea/.basher/bin
@@ -16,7 +16,7 @@ Platform:
 npm manifest: 
   {
     "name": "test-yo-gen",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "scripts": {
       "build": "gulp build",
       "build:watch": "gulp",
@@ -35,7 +35,7 @@ npm manifest:
       "url": "git@github.com:claudiadonea-awin/test-yo-gen.git"
     },
     "author": {
-      "name": "claudia donea",
+      "name": "Claudia Donea",
       "email": "claudia.donea@awin.com"
     },
     "keywords": [
@@ -43,7 +43,7 @@ npm manifest:
     ],
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/username/repo/issues"
+      "url": "git@github.com:claudiadonea-awin/test-yo-gen.git/issues"
     },
     "devDependencies": {
       "@angular/common": "^5.0.0",
@@ -98,9 +98,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 127
+  Exit code: 1
   Command: sh
-  Arguments: -c gulp build
+  Arguments: -c tslint --type-check --project tsconfig.json src/**/*.ts
   Directory: /Users/claudiadonea/Documents/Projects/test-yo-gen
   Output:
   

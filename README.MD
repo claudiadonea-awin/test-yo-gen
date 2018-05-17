@@ -69,4 +69,4 @@ $ npm run lint
 
 ## License
 
-MIT © [claudia donea](mailto:claudia.donea@awin.com)
+MIT © [Claudia Donea](mailto:claudia.donea@awin.com)
